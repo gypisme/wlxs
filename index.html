@@ -133,6 +133,11 @@ body {
   }
 }
       .logo_jjld{width: 80px;height: 80px;display: block;border: 0;position: fixed;right: 80px;top: 60px;z-index: 999999999999999;border-radius: 40px;}
+      .pop-run2{transform:translate3d(0,0,0);animation:popopen 2.2s infinite alternate linear;}
+    .pop-run{transform:translate3d(0,0,0);animation:popopen 1.4s infinite alternate linear};
+    @keyframes popopen{0%{transform:scale(1,1)}100%{transform:scale(1.08,1.08)}}
+    @-moz-keyframes popopen{0%{transform:scale(1,1)}100%{transform:scale(1.08,1.08)}}
+    @-webkit-keyframes popopen{0%{transform:scale(1,1)}100%{transform:scale(1.08,1.08)}}
   </style>
  </head>
  <body>
@@ -155,7 +160,7 @@ body {
 </div>
 
 <div id="music-container" style="display: none;"></div>
-<img src="http://imgcdn.besttoptoday.com/bluepencil/u/cms/tz/201905/28140132ob7m.png" alt="" class="logo_jjld">
+<img src="http://imgcdn.besttoptoday.com/bluepencil/u/cms/tz/201905/28140132ob7m.png" alt="" class="logo_jjld pop-run2 pop-run">
 <script>
 // Author: Hoang Tran (https://www.facebook.com/profile.php?id=100004848287494)
 // Github verson (1 file .html): https://github.com/HoangTran0410/3DCarousel/blob/master/index.html
